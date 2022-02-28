@@ -1,4 +1,10 @@
-body{
+*{
+    box-sizing: border-box;
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+#body1{
     width: 80%;
     margin: auto;
     
@@ -13,25 +19,25 @@ a{
     color: white;
 }
 
-header{
+header, #part-5{
     display: flex;
     align-items: center;
     /* background-color: blue; */
 }
 
 
-#heading{
+#heading , #part-5-article{
     width: 50%;
     margin-right: 20px;
     /* background-color: aqua; */
 }
 
-#heading-image{
+#heading-image , #part-5-image{
     margin-left: 20px; 
     width: 50%;
 }
 
-#heading-image img{
+#heading-image img , #part-5-image img{
     width: 80%;
     /* background-color: blueviolet; */
 }
@@ -46,7 +52,7 @@ header{
     display: flex;
 }
 
-#part-2-title{
+#part-2-title , #part-5-title{
     text-align: center;
 }
 
@@ -73,6 +79,7 @@ header{
 
 #part-3 , #part-4 {
     display: flex;
+    align-items: center;
 }
 
 #part-3-img , #part-4-img{
@@ -87,5 +94,12 @@ header{
 #part-3-article , #part-4-article{
     width: 60%;
     padding: 20px;
-    justify-content: center;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 3rem;
 }
